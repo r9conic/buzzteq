@@ -1,0 +1,262 @@
+
+@import "";
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  background-color:  rgb(230, 230, 230);
+  background-image: url();
+  font-family: 'Source Sans Pro', sans-serif;
+
+  width: 100%;
+  margin: auto;
+}
+
+
+/*****Header*****/
+
+.banner{
+    position: absolute;
+    background: url('https://images.unsplash.com/photo-1431492299426-2ea1ce429cc0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=135705633ad6367a0565fceae4a57372');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 8.7em;
+
+    z-index: -1;
+    top: 0;
+}
+.twitterButton{
+    background:url(src/img/twitter29.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:1.7em;
+    height:1.8em;
+}
+.twitterButton:active {
+    background:url(src/img/twitter20.png) no-repeat;
+    background-color:none;
+}
+logo img{
+    float: left;
+    position: absolute;
+    top:1.7em;
+    left:10em;
+    width:15em;
+    height: 4em;
+
+    z-index: 100;
+
+    background-color: rgba(200, 200, 200, 0.1);
+    background: u rl(src/img/logo.png);
+    background-size: 15em;
+}
+header{
+
+}
+
+/*****Navigator*****/
+
+nav{
+    background: rgba(200, 200, 200, 0.95);
+    max-height: 5em;
+    min-height: 5em;
+    position: relative;
+    top:1.3em;
+    left:0;
+    right:0;
+    width: 100%;
+    z-index: 20;
+
+    transition: 0.35s all ease;
+}
+nav2{
+    background: rgba(50, 50, 50, 0.56);
+
+    max-height: 1.7em;
+    min-height: 1.7em;
+    width: 100%;
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    top:1.7em;
+    left:0;
+    right:0;
+    z-index: 21;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    margin: 5em 10em 5em 10em;
+    min-height: 200em;
+    width: 80%;
+}
+
+h1{
+    font-size: 3.45em;
+    font-family: 'DejaVu', 'Orbitron', sans-serif;
+    text-shadow: 1px 1px rgba(101, 97, 97, 0.25);
+    color: #000000;
+    pointer-events: none;
+}
+h2{
+    font-size: 1em;
+    font-family: 'DejaVu', 'Orbitron', sans-serif;
+    float:left;
+}
+h3{
+    font-size: 1em;
+    font-family: 'DejaVu', 'Orbitron', sans-serif;
+    float: right;
+}
+h4{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #777;
+    float: right;
+}
+
+
+
+p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #777;
+    padding: 2rem 0;
+    line-height: 2rem;
+}
+ul{
+    margin: 0 10em 0 10em;
+    padding-left: 4.5em; /*Buzzteq*/
+    padding-right: 4.5em; /*twitter and link*/
+}
+li{
+    font-family: 'tangerine', serif;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+
+    background: 0;
+
+    list-style: none;
+    float: right;
+    margin-left: 1.5em;
+    margin-top: -1em;
+}
+li a{
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: #5B6067;
+}
+a2{
+    font-family: 'DejaVu', 'Orbitron', sans-serif;
+    color:rgba(240, 238, 226, 0.89);
+    line-height: 2em;
+}
+
+
+
+
+
+/*****Columns*****/
+
+.columns {
+	display: flex;
+	//flex-flow: row wrap;
+	justify-content: center;
+	margin: 1rem 0 0 0;
+
+
+}
+
+.column {
+	flex: 1;
+	margin: 1rem;
+	padding: 1rem;
+
+  max-width: 60%;
+
+
+}
+.columnB {
+	flex: 1;
+	margin: 1rem;
+	padding: 1rem;
+
+  max-width: 60%;
+
+
+}
+.columnAdvert {
+	flex: 1;
+	border: 3px solid gray;
+	margin: 2px;
+	padding: 10px;
+
+  max-width: 30%;
+  float:right;
+
+}
+
+.box {
+    border-radius: 0rem;
+    padding: 1rem;
+
+}
+
+.box .box {
+    background-color: rgb(204 ,204, 204);
+    color: #444;
+}
+
+.a{
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
+    display: grid;
+grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.b {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.c {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*****Media Queries*****/
+
+@media(max-width:960px){
+
+
+
+
+
+}
